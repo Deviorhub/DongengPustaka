@@ -11,6 +11,17 @@ export const getAllUsers = async () => {
   }
 };
 
+export const getUsersById = async (id) => {
+  try {
+    const SQLQuery = "SELECT * FROM users WHERE id = ?";
+    const [rows] = await db.execute(SQLQuery, [id]);
+    return rows;
+  } catch (error) {
+    console.error("Error pada proses getAllUsers:", error);
+    throw error;
+  }
+};
+
 // Komentar ini tetap dikomentari jika Anda tidak menggunakannya
 // export const getUsersById = async (id) => {
 //     try {
