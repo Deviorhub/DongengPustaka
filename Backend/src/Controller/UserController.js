@@ -17,20 +17,6 @@ export const getAllUsersController = async (req, res) => {
     });
   }
 };
-export const getUsersById = async (req, res) => {
-  const { id } = req.params;
-  try {
-    const data = await modelGetUsersId(id);
-    res.json({
-      message: "GET users berhasil!",
-      data: data,
-    });
-  } catch (error) {
-    res.status(500).json({
-      message: error.message,
-    });
-  }
-};
 
 export const getUsersById = async(req, res) => {
     const {id} = req.params
