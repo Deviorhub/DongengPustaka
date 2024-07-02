@@ -1,3 +1,4 @@
+
 import db from "../Config/Database.js";
 
 export const getAllUsers = async() => {
