@@ -1,12 +1,8 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import Dashboard from "./dashboard/Dashboard";
 
 function App() {
-  return (
-    <>
-      <h1 className='text-3xl font-bold'>Hai</h1>
-    </>
-  )
+  return <Dashboard />;
 }
 
-export default App
+export default App;
