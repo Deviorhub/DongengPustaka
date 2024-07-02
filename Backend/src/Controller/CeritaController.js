@@ -25,10 +25,6 @@ export const getCeritaById = async (req, res) => {
   const { id } = req.params;
   try {
     const data = await modelGetCeritasId(id);
-    res.json({
-      message: "GET kategoris berhasil!",
-      data: data,
-    });
     if (data.length > 0) {
       res.json({
         message: `GET cerita dengan ID:${id} berhasil!`,
