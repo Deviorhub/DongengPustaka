@@ -1,14 +1,14 @@
 import { 
-    getAllKategoris as modelGetAllKategoris,
-    getKategorisById as modelGetKategorisId,
+    getAllCeritas as modelGetAllCeritas,
+    getCeritasById as modelGetCeritasId,
     // addUsers
-} from "../Models/ModelKategori.js";
+} from "../Models/ModelCerita.js";
 
-export const getAllKategorisController = async(req, res) => {
+export const getAllCeritasController = async(req, res) => {
     try {
-        const data = await modelGetAllKategoris();
+        const data = await modelGetAllCeritas();
         res.json({
-            message: 'GET semua kategoris berhasil!',
+            message: 'GET semua ceritas berhasil!',
             data: data
         });
     } catch (error) {
@@ -18,10 +18,10 @@ export const getAllKategorisController = async(req, res) => {
     }
 }
 
-export const getKategorisById = async(req, res) => {
+export const getCeritaById = async(req, res) => {
     const {id} = req.params
     try {
-        const data = await modelGetKategorisId(id);
+        const data = await modelGetCeritasId(id);
         res.json({
             message: 'GET kategoris berhasil!',
             data: data
