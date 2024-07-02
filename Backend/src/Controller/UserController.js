@@ -1,20 +1,19 @@
-const userModel = require('../Models/ModelUsers')
+import { 
+    getAllUsers as modelGetAllUsers,
+    // getUsersById,
+    // addUsers
+} from "../Models/ModelUsers.js";
 
-const getAllUsers = async(req, res) => {
+export const getAllUsersController = async(req, res) => {
     try {
-        const [data] = await userModel.getAllUsers()
+        const data = await modelGetAllUsers();
         res.json({
             message: 'GET semua users berhasil!',
             data: data
-        })
-    } catch (error){
+        });
+    } catch (error) {
         res.status(500).json({
-            message: "Server error!",
-            serverMessage: error
-        })
+            message: error.message
+        });
     }
-}
-
-module.exports = {
-    getAllUsers
 }
