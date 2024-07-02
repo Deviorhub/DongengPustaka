@@ -22,18 +22,7 @@ export const getUsersById = async(id) => {
     }
 }
 
-// export const getUsersById = async (id) => {
-//     try {
-//         const SQLQuery = 'SELECT * FROM users WHERE id = ?';
-//         const [users] = await db.execute(SQLQuery, [id]);
-//         return users;
-//     } catch (error) {
-//         console.error('Error pada proses getUsersById:', error);
-//         throw error;
-//     }
-// }
-
-// export const addUsers = (body) => {
-//     const {} = body;
-//     const SQLQuery = ``;
-// }
+export const addUsers = (body) => {
+    const {} = body;
+    const SQLQuery = ``;
+}
