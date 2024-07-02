@@ -38,7 +38,7 @@ const Footer = () => {
             <p className="text-white">Pustaka</p>
           </div>
         </div>
-        <p className="text-white">
+        <p className="text-white max-w-lg">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, ab
           cum nam architecto, animi exercitationem aliquam ullam dolor est
           similique repellat doloremque tenetur vel enim nobis illum iure
