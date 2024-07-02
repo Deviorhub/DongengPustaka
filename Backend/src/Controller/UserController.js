@@ -24,10 +24,17 @@ export const getUsersById = async(req, res) => {
     const {id} = req.params
     try {
         const data = await modelGetUsersId(id);
-        res.json({
-            message: 'GET users berhasil!',
-            data: data
-        });
+        if(data.length > 0){
+            res.json({
+                message: `GET users dengan ID:${id} berhasil!`,
+                data: data
+            });
+        } else {
+            res.status(404).json({
+                message : `Users dengan ID:${id} tidak ditemukan.`
+            })
+        }
+        
     } catch (error) {
         res.status(500).json({
             message: error.message
