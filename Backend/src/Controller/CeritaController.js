@@ -21,6 +21,7 @@ export const getAllCeritasController = async (req, res) => {
   }
 };
 
+<<<<<<< HEAD
 export const getCeritaById = async (req, res) => {
   const { id } = req.params;
   try {
@@ -79,3 +80,25 @@ export const deleteCeritaController = async (req, res) => {
     });
   }
 };
+=======
+export const getCeritaById = async(req, res) => {
+    const {id} = req.params
+    try {
+        const data = await modelGetCeritasId(id);
+        if(data.length > 0){
+            res.json({
+                message : `GET cerita dengan ID:${id} berhasil!`,
+                data: data
+            });
+        } else {
+            res.status(404).json({
+                message : `Cerita dengan ID:${id} tidak ditemukan.`
+            })
+        }
+    } catch (error) {
+        res.status(500).json({
+            message: error.message
+        });
+    }
+}
+>>>>>>> dd5c923b0b43cd7ca5e54a1764db44291324cee3
