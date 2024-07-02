@@ -22,10 +22,16 @@ export const getKategorisById = async(req, res) => {
     const {id} = req.params
     try {
         const data = await modelGetKategorisId(id);
-        res.json({
-            message: 'GET kategoris berhasil!',
-            data: data
-        });
+        if(data.length > 0){
+            res.json({
+                message : `GET kategoris dengan ID:${id} berhasil!`,
+                data: data
+            });
+        } else {
+            res.status(404).json({
+                message : `Kategori dengan ID:${id} tidak ditemukan.` 
+            })
+        }
     } catch (error) {
         res.status(500).json({
             message: error.message
