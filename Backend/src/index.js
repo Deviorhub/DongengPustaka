@@ -3,11 +3,13 @@ import cors from "cors";
 import "dotenv/config";
 import http from "http";
 import UserRoute from "./Routes/UserRoute.js";
+import logRequest from "./Middleware/log.js"
 
 const PORT = process.env.PORT;
 
 const app = express();
 app.use(cors());
+app.use(logRequest)
 app.use(express.json());
 
 const server = http.createServer(app);
