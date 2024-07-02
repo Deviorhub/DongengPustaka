@@ -1,4 +1,3 @@
-
 import db from "../Config/Database.js";
 
 export const getAllUsers = async() => {
@@ -12,7 +11,6 @@ export const getAllUsers = async() => {
     }
 }
 
-// Komentar ini tetap dikomentari jika Anda tidak menggunakannya
 // export const getUsersById = async (id) => {
 //     try {
 //         const SQLQuery = 'SELECT * FROM users WHERE id = ?';
