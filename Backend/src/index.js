@@ -3,6 +3,8 @@ import cors from "cors";
 import "dotenv/config";
 import http from "http";
 import UserRoute from "./Routes/UserRoute.js";
+import KategoriRoute from "./Routes/KategoriRoute.js";
+import CeritaRoute from "./Routes/CeritaRoute.js";
 import logRequest from "./Middleware/log.js"
 
 const PORT = process.env.PORT;
@@ -14,6 +16,8 @@ app.use(express.json());
 
 const server = http.createServer(app);
 app.use(UserRoute);
+app.use(KategoriRoute);
+app.use(CeritaRoute);
 
 server.listen(PORT, () => {
   console.log(`Server berjalan pada port ${PORT}`);
