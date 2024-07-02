@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./components/layouts/Header";
+import Header from "./dashboard/component/Navbar";
 import Button from "./components/Elements/Button/Button";
 import Card from "./components/pages/Card";
-import Footer from "./components/layouts/Footer";
+import Footer from "./dashboard/component/Footer";
 import CardProduct from "./components/Fragments/CardProduct";
 
 function App() {
@@ -32,7 +32,13 @@ function App() {
               usia. Mulai perjalanan membaca Anda dan temukan keajaiban di
               setiap cerita!
             </p>
-            <Button color="bg-[#B2AFE7]" px="8" py="3" text="Mulai Sekarang" />
+            <Button
+              color="bg-[#B2AFE7]"
+              width="w-1/6"
+              px="12"
+              py="3"
+              text="Mulai Sekarang"
+            />
           </div>
         </div>
       </section>
@@ -52,7 +58,7 @@ function App() {
       </section>
 
       {/* tentang */}
-      <section className="bg-[#F2F2F2]">
+      <section className="bg-[#F2F2F2]" id="tentang">
         <div className="container mx-auto mt-[107px]">
           <div className="flex justify-between items-center p-28 space-x-8">
             <img src="/img/about.png" alt="" />
@@ -81,7 +87,7 @@ function App() {
 
       {/* update cerita */}
       <section>
-        <div className="container mx-auto mt-[107px]">
+        <div className="container mx-auto mt-[107px] mb-10">
           <div className="flex flex-col">
             <h1 className="text-4xl font-semibold">Cerita Baru Terupdate</h1>
             <p>

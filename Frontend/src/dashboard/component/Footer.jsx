@@ -26,6 +26,7 @@ const Footer = () => {
   ];
   return (
     <div
+      id="kontak"
       className="px-16 py-16 flex justify-between"
       style={{ backgroundColor: "#8DAAE5" }}
     >

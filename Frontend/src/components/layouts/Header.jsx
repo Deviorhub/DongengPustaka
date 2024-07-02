@@ -33,8 +33,21 @@ const Header = () => {
               </ul>
             </nav>
             <div className="flex gap-x-2">
-              <Button color="bg-[#B2AFE7]" px="6" py="2" text="Masuk" link="/login" />
-              <Button border="border-2" color="border-[#B2AFE7]" px="6" py="2" text="Daftar" link="/register" />
+              <Button
+                color="bg-[#B2AFE7]"
+                px="6"
+                py="2"
+                text="Masuk"
+                link="/login"
+              />
+              <Button
+                border="border-2"
+                color="border-[#B2AFE7]"
+                px="6"
+                py="2"
+                text="Daftar"
+                link="/register"
+              />
             </div>
           </div>
         </div>
