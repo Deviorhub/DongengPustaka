@@ -8,7 +8,7 @@ const Header = () => {
       style={{ backgroundImage: 'url("src/img/hero2.png")' }}
     >
       <Navbar />
-      <div className="flex flex-col gap-5 justify-center items-center my-32">
+      <div className="flex flex-col gap-5 justify-center items-center my-24">
         <h1 className="text-white text-center w-3/5 text-4xl font-bold">
           Temukan Kisah Menakjubkan di Koleksi Buku Cerita Terbaru Kami!
         </h1>
