@@ -8,7 +8,7 @@ export const dongengNusantara = [
     cover:
       "https://i.pinimg.com/474x/6b/15/bf/6b15bf365da2528c44449065c491bb8d.jpg",
     banner:
-      "https://i.pinimg.com/236x/d9/dd/96/d9dd967a65f8a67e36a6c786e81dd66b.jpg",
+      "https://images2.alphacoders.com/133/thumb-1920-1337342.png",
     rating: 4.5,
     favorite: 243,
     asal: "Sumatera",
@@ -23,7 +23,7 @@ export const dongengNusantara = [
     cover:
       "https://i.pinimg.com/236x/54/91/70/54917076863e50292cb44b4b7c3b3cea.jpg",
     banner:
-      "https://i.pinimg.com/236x/f8/d4/a3/f8d4a329d177b85f916c9e306b661f73.jpg",
+      "https://images4.alphacoders.com/152/thumb-1920-152014.jpg",
     rating: 4.8,
     favorite: 300,
     asal: "Sumatera Barat",
@@ -38,7 +38,7 @@ export const dongengNusantara = [
     cover:
       "https://i.pinimg.com/236x/e1/46/3d/e1463d519c597c753babd8836f7139ac.jpg",
     banner:
-      "https://i.pinimg.com/236x/13/37/24/133724e8eeab4a04c2d7aa89c6f05982.jpg",
+      "https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546140.jpg?t=st=1719998274~exp=1720001874~hmac=6417efa6e82364301e046f3bcf1d31f749e9869db928e0ba53109541452018ef&w=1380",
     rating: 4.3,
     favorite: 185,
     asal: "Jawa",
@@ -53,7 +53,7 @@ export const dongengNusantara = [
     cover:
       "https://i.pinimg.com/236x/83/77/eb/8377ebf8d8fa6c3914af44325dfca898.jpg",
     banner:
-      "https://i.pinimg.com/236x/e9/72/4f/e9724fdc5841b94e47737004c3aaa6b2.jpg",
+      "https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546166.jpg?t=st=1719996515~exp=1720000115~hmac=1fa5fdd191049cab175b40c1e71a4e4aac4c2055f10d4cd7fae790eadaf5c4a9&w=1380",
     rating: 4.7,
     favorite: 275,
     asal: "Jawa Tengah",
@@ -68,7 +68,7 @@ export const dongengNusantara = [
     cover:
       "https://i.pinimg.com/236x/f1/70/7a/f1707ac4d5402a5ba6fb581f2448f300.jpg",
     banner:
-      "https://i.pinimg.com/236x/52/d2/c8/52d2c84edfcf25e4119ddab998952ef8.jpg",
+      "https://img.freepik.com/free-photo/ancient-japan-background-digital-art-style_23-2151567799.jpg?t=st=1719998431~exp=1720002031~hmac=a213f4bde7ce93d7110f75fe8482aeea3d4fcb9d3e8048fa0d5beb3784c0b84d&w=1060",
     rating: 4.6,
     favorite: 260,
     asal: "Sumatera Utara",
@@ -83,7 +83,7 @@ export const dongengNusantara = [
     cover:
       "https://i.pinimg.com/236x/3c/34/78/3c3478809a1a691b88cfbfd091051579.jpg",
     banner:
-      "https://i.pinimg.com/236x/f9/a5/a0/f9a5a04d3f31eeaa0acb8e03f061a3e6.jpg",
+      "https://artfiles.alphacoders.com/433/43337.jpg",
     rating: 4.5,
     favorite: 240,
     asal: "Jawa Barat",

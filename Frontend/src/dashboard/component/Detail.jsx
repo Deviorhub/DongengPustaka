@@ -20,13 +20,11 @@ const Detail = () => {
         .map((data, index) => (
           <>
             <div
+              className="h-96 bg-cover bg-center bg-no-repeat w-full"
               style={{
-                backgroundImage: `url(${data.banner})`, // Ubah properti ini menjadi `backgroundImage`
-                backgroundSize: "cover", // Menyesuaikan ukuran background
-                backgroundPosition: "center", // Contoh tinggi minimum
-                padding: "20px", // Contoh padding untuk konten
+                backgroundImage: `url(${data.banner})`,
+                padding: "25px",
               }}
-              className="h-72 bg-no-repeat bg-contain bg-center"
             >
               <Navbar />
             </div>
@@ -35,7 +33,7 @@ const Detail = () => {
                 <Card img={data.cover} />
               </div>
               <div className="flex w-full">
-                <div className="w-52 pt-48 mb-20">
+                <div className="w-52 pt-24 mb-20">
                   <div className="flex flex-col gap-3">
                     <button
                       className="w-full rounded-md text-white font-medium h-10"
